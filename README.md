@@ -36,6 +36,20 @@ Users should be able to:
 
 ## My process
 
+- Prepare the project structure with [Vite](https://vitejs.dev/).
+- Inspect the design, and style guide. Read the requirement
+- Plan the different element to code
+- Implement the HTML
+- Implement styles for the mobile version
+- Add media queries and adapt styles for the desktop version
+- Adjust styles with [PerfectPixel](https://www.welldonecode.com/perfectpixel/)
+- Add clamp values where needed with [https://websemantics.uk/tools/fluid-responsive-property-calculator/](https://websemantics.uk/tools/fluid-responsive-property-calculator/)
+- Test the solution with keyboard and adjust markup
+- Test the solution with voice over and adjust markup
+- Push the solution live
+- Test the solution on Phone and Polypane
+- Update README
+
 ### Built with
 
 - Semantic HTML5 markup
@@ -46,9 +60,42 @@ Users should be able to:
 
 ### What I learned
 
+When writing css we should focus on low specificity and only add higher specificity if really needed.
+It's better to not use to much indentation in scss as it can give very high specificity for elements and will be difficult to maintain.
+
+I practiced grid with grid areas that made the layout switch between mobile and desktop very easy.
+
+```css
+.header {
+  grid-area: header;
+}
+
+.pricing {
+  grid-area: pricing;
+}
+
+.features {
+  grid-area: features;
+}
+
+.container {
+  min-width: 40rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  grid-template-areas:
+    "header header"
+    "pricing features";
+}
+```
+
 ### Continued development
 
+Update colors and font-sizes for better accessibility.
+
 ### Useful resources
+
+[About sass nesting](https://fedmentor.dev/posts/sass-nesting/)
 
 ## Author
 
