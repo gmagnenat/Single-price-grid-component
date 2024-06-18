@@ -18,6 +18,25 @@ This is a solution to the [Single price grid component challenge on Frontend Men
 
 ## Overview
 
+### How to run the project
+
+```sh
+# install dependencies
+pnpm i
+
+# run the dev server
+pnpm dev
+
+# build for production
+pnpm build
+
+# preview build version
+pnpm preview
+```
+
+> Node version: v21.5.0  
+> pnpm version: 8.15.0
+
 ### The challenge
 
 Users should be able to:
@@ -31,8 +50,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/single-price-grid-component-with-scss-and-vite-SahM4cOtYX](https://www.frontendmentor.io/solutions/single-price-grid-component-with-scss-and-vite-SahM4cOtYX)
+- Live Site URL: [https://gorgeous-sorbet-f5dd63.netlify.app/](https://gorgeous-sorbet-f5dd63.netlify.app/)
 
 ## My process
 
