@@ -1,0 +1,21 @@
+@use "./variables" as *;
+
+@mixin flex-col($align: left) {
+  display: flex;
+  flex-direction: column;
+  align-items: $align;
+}
+
+@mixin button-primary {
+  background-color: $clr-primary-400;
+  border-color: transparent;
+  border-radius: 0.3rem;
+  width: 100%;
+
+  padding-block: 0.78rem;
+  color: $clr-white;
+  font-weight: 600;
+  letter-spacing: 0.07em;
+
+  box-shadow: 0 0.625rem 0.625rem 0 rgba(0, 0, 0, 0.1);
+}

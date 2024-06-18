@@ -1,0 +1,39 @@
+/***********
+* Colors
+***********/
+
+$clr-primary-400: hsl(71, 73%, 54%);
+$clr-secondary-400: hsl(179, 62%, 43%);
+$clr-base-400: hsl(218, 22%, 67%);
+$clr-base-200: hsl(204, 43%, 93%);
+$clr-white: hsl(0, 0%, 100%);
+
+$shadow-lg: 0 1rem 2rem 0 rgba(0, 28, 171, 0.15);
+
+$ff: "Karla", sans-serif;
+
+$fs-300: 0.75rem; // 12px
+$fs-400: 0.875rem; // 14px
+$fs-450: 0.9375rem; // 15px
+$fs-500: 1rem; // 16px
+$fs-600: 1.125rem; // 18px
+$fs-700: 1.25rem; // 20px
+$fs-800: 1.5rem; // 24px
+$fs-900: 1.875rem; // 30px
+$fs-950: 2rem; // 32px
+
+$fs-fluid-heading: clamp(
+  $fs-700,
+  calc($fs-700 + ((1vw - 0.2rem) * 0.4545)),
+  $fs-800
+);
+$fs-fluid-subheading: clamp(
+  $fs-450,
+  calc($fs-450 + ((1vw - 0.2rem) * 0.3409)),
+  $fs-600
+);
+$fs-fluid-text: clamp(
+  $fs-400,
+  calc($fs-400 + ((1vw - 0.2rem) * 0.2273)),
+  $fs-500
+);
