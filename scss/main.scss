@@ -13,8 +13,7 @@ body {
   font-family: $ff;
   font-size: $fs-400;
   font-weight: 300;
-
-  padding-inline: 1rem;
+  padding: 1rem;
 }
 
 ul {
@@ -44,7 +43,6 @@ ul {
 }
 
 .header__title {
-  // margin-top: 0.2rem;
   color: $clr-secondary-400;
   font-size: $fs-fluid-heading;
   letter-spacing: -0.01em;
